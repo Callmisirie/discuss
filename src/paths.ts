@@ -6,7 +6,7 @@ const paths = {
         return `/topics/${topicSlug}`;
     },
     postCreate(topicSlug: string) {
-        return `/topics/${topicSlug}/posts/new`;
+        return `/topics/${topicSlug}/post/new`;
     },
     postShow(topicSlug: string, postId: string) {
         return `/topics/${topicSlug}/post/${postId}`;
